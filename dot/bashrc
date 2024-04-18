@@ -41,3 +41,9 @@ _bivio_bashrc_init() {
 
 _bivio_bashrc_init
 unset -f _bivio_bashrc_init
+
+alias s='cd ~/src/radiasoft/sirepo'
+alias p='cd ~/src/radiasoft/pykern'
+alias r='cd ~/src/radiasoft'
+alias ro='cd ~/src/rorour'
+alias e='emacs .'
