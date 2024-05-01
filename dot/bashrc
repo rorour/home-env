@@ -47,3 +47,7 @@ alias p='cd ~/src/radiasoft/pykern'
 alias r='cd ~/src/radiasoft'
 alias ro='cd ~/src/rorour'
 alias e='emacs .'
+
+sirepo_mail () {
+    grep --color=auto 'http://' $(ls -dt ~/mail/* | head -n1) | xargs
+}
